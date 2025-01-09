@@ -115,6 +115,9 @@ export function getSuggestOptionsByElement(selectDom: HTMLElement): { type: stri
       },
       {
         type: 'opacity'
+      },
+      {
+        type: 'size'
       }
     ].filter(t => !!t)
 
